@@ -2,11 +2,11 @@ import {
   CSSProperties,
   ForwardRefExoticComponent,
   ReactHTML,
-  RefAttributes
+  RefAttributes,
 } from "react";
 import Sortable, { MoveEvent, Options, SortableEvent } from "sortablejs";
 import { ReactSortable } from "./react-sortable";
-import { Omit } from './util';
+import { Omit } from "./util";
 
 // @todo: remove dynamic types and create declarative types instead for readability of user.
 // add these in docs as well
@@ -50,6 +50,7 @@ export interface ReactSortableProps<T>
    * and the new clone will be placed in `A`
    */
   clone?: (currentItem: T, evt: SortableEvent) => T;
+  passProps?: any;
 
   // other classic DOM attributes.
   style?: CSSProperties;

@@ -30,8 +30,8 @@
   },
   "dependencies": {
     "@types/sortablejs": "^1.10.0",
+    "sortablejs": "aquaductape/Sortable-my-edit",
     "classnames": "^2.2.6",
-    "sortablejs": "1.10.1",
     "tiny-invariant": "^1.0.6"
   },
   "devDependencies": {
